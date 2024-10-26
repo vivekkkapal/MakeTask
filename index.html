@@ -5,13 +5,31 @@
     <link rel="icon" type="image/svg+xml" href="/MakeTaskLogo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MakeTAsk</title>
-    <link rel="stylesheet" href="src/index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
   </head>
   <body>
-    <div id="app"></div>
+    
+    <!--
+     MARK: Navbar 
+     -->
+     <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">MakeTask</a>
+      </div>
+      <div class="flex-none">
+        <button class="btn btn-square btn-ghost">
+          <i class="ti ti-checklist text-2xl"></i>
+        </button>
+      </div>
+    </div>
 
-    <h1 class="text-3xl">MakeTask</h1>
 
 
+
+
+    <!-- Script -->
+    <script src="src/main.js" type="module"></script>
   </body>
 </html>
