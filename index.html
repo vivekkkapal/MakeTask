@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="coffee">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/MakeTaskLogo.svg" />
@@ -16,16 +16,45 @@
      -->
      <div class="navbar bg-base-100">
       <div class="flex-1">
-        <a class="btn btn-ghost text-xl">MakeTask</a>
+        <a class="btn btn-ghost text-2xl">MakeTask</a>
       </div>
       <div class="flex-none">
         <button class="btn btn-square btn-ghost">
-          <i class="ti ti-checklist text-2xl"></i>
+          <i class="ti ti-checklist text-4xl"></i>
         </button>
       </div>
     </div>
 
+    <!-- 
+    MARK: main 
+     -->
+    <main class="flex justify-center items-center min-h-screen">
+      <div class="card bg-base-100 w-60 sm:w-72 md:w-80 shadow-2xl">
+        <figure>
+          <img
+            src="/color.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body mb-10">
+          <!-- Task input -->
+           <form action="">
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+           </form>
 
+           <!-- Task list -->
+           <div class="form-control">
+            <label class="label cursor-pointer">
+              <span class="label-text">Remember me</span>
+              <input type="checkbox"  class="checkbox" />
+            </label>
+            <label class="label cursor-pointer bg-teal-950 rounded">
+              <span class="label-text">Remember me</span>
+              <input type="checkbox" checked="checked" class="checkbox" />
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
 
 
 
